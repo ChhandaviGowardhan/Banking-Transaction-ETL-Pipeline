@@ -95,6 +95,8 @@ Banking-Transaction-ETL-Pipeline/
 │   ├── anomaly_detection/
 │   │   └── detect_anomalies.py
 │
+├── main.py
+|
 ├── dashboard/
 │   └── dashboard.png
 │
@@ -170,13 +172,19 @@ Performed business insights:
 ### 1. Clone Repository
 
 ```
+Credit Card Fraud Detection: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+```
+
+### 2. Download Dataset
+
+```
 git clone https://github.com/your-username/Banking-Transaction-ETL-Pipeline.git
 cd Banking-Transaction-ETL-Pipeline
 ```
 
 ---
 
-### 2. Create Virtual Environment
+### 3. Create Virtual Environment
 
 ```
 python -m venv bankvenv
@@ -185,7 +193,7 @@ bankvenv\Scripts\activate
 
 ---
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 ```
 pip install -r requirements.txt
@@ -193,7 +201,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Run ETL Pipeline
+### 5. Run ETL Pipeline
 
 ```
 python -m src.ingestion.load_data
@@ -201,7 +209,7 @@ python -m src.ingestion.load_data
 
 ---
 
-### 5. Output
+### 6. Output
 
 Processed data will be saved at:
 
@@ -211,7 +219,7 @@ data/processed/transactions.csv
 
 ---
 
-### 6. Open Dashboard
+### 7. Open Dashboard
 
 * Open Power BI
 * Load `transactions.csv`
@@ -240,8 +248,7 @@ data/processed/transactions.csv
 
 ## 👩‍💻 Author
 
-**Chhandavi Gowardhan**
-Final Year ENTC Student | Aspiring Data Analyst
+**Chhandavi Gowardhan**                                                                                                     Aspiring Data Analyst
 
 ---
 
