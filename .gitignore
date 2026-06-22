@@ -1,0 +1,5 @@
+bankvenv/
+__pycache__/
+*.pyc
+data/processed/
+*.csv
