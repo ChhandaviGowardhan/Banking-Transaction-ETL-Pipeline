@@ -172,7 +172,8 @@ Performed business insights:
 ### 1. Clone Repository
 
 ```
-Credit Card Fraud Detection: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+git clone https://github.com/your-username/Banking-Transaction-ETL-Pipeline.git
+cd Banking-Transaction-ETL-Pipeline
 ```
 
 ### 2. Download Dataset
